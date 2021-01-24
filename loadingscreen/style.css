@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow-y: hidden;
+  background-image: url("./background.jpg")
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+  position: center;
+  margin-top: 100px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  position: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+}
+
+.audio {
+  visibility: hidden;
+}
+
+
+.loading {
+  position: fixed;
+  top: 1px;
+  left: 450px;
+
+  margin: 400px;
+  border-width: 30px;
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+     -moz-animation: spin 1s linear infinite;
+       -o-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  }
+
+.style-1 {
+  border-style: solid;
+  border-color: #444 transparent;
+  }
+
+.style-2 {
+  border-style: double;
+  border-color: #ccc transparent;
+  }
+
+.style-3 {
+  border-style: double;
+  border-color: #444 #fff #fff;
+  }
+
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(-359deg); }
+  }
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(-359deg); }
+  }
+
+@-o-keyframes spin {
+  100% { -moz-transform: rotate(-359deg); }
+  }
+
+@keyframes spin {
+  100% {  transform: rotate(-359deg); }
+  }
